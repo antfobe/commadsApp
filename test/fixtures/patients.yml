@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  namePatient: MyString
+  photoPatient: MyString
+  lastAppointment: 2016-07-11 18:40:16
+  agePatient: 1
+  detailsPatient: MyText
+  info: MyText
+  appointmentsTotal: 1
+
+two:
+  namePatient: MyString
+  photoPatient: MyString
+  lastAppointment: 2016-07-11 18:40:16
+  agePatient: 1
+  detailsPatient: MyText
+  info: MyText
+  appointmentsTotal: 1
