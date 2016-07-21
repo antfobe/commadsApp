@@ -1,3 +1,10 @@
 sudo rails g scaffold Appointment namePatient:string nameMedic:string dateTimeStart:datetime dateTimeEnd:datetime
 sudo rails g scaffold Patient namePatient:string photoPatient:string lastAppointment:datetime agePatient:integer detailsPatient:text info:text appointmentsTotal:integer
 sudo rails g scaffold PatientLog namePatient:string dateAppointment:datetime nameMedic:string status:string info:text
+sudo rails generate controller StaticPages auth help
+sudo rails generate controller Users new
+sudo rails generate migration add_index_to_users_email
+sudo rails generate migration add_password_digest_to_users password_digest:string
+mkdir app/views/shared
+
+sudo rails db:migrate
